@@ -30,10 +30,10 @@ To install the necessary components for running this script, execute the followi
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/md5-hash-cracker.git
+git clone https://github.com/Real-Qxzia/Hash-Cracker.git
 
 # Change directory to the project folder
-cd md5-hash-cracker
+cd Hash-Cracker.git
 
 # Ensure all dependencies are installed (if any)
 pip install -r requirements.txt
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 To utilize the MD5 Hash Cracker, execute the following command in your terminal:
 
 ```bash
-python hash_cracker.py
+python main.py
 ```
 
 ### Input Format
