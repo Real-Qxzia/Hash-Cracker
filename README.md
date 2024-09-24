@@ -1,7 +1,7 @@
 # 📜 **MD5 Hash Cracker** 🔒
 
 ## **Table of Contents** 📚
-1. [Overview](#overview)
+1. [Overview](#Overview)
 2. [Prerequisites](#prerequisites)
 3. [Installation](#installation)
 4. [Usage](#usage)
