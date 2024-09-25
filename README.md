@@ -1,4 +1,4 @@
-# 📜 MD5 Hash Cracker 🔒
+# 📜 Hash Cracker 🔒
 
 ## Table of Contents
 1. [Overview](#overview)
@@ -13,7 +13,7 @@
 ---
 
 ## Overview
-The **MD5 Hash Cracker** is a Python script designed to reverse-engineer MD5 hashes by comparing them against a list of potential plaintext passwords sourced from a local file. This utility serves as a demonstration of hash cracking techniques, showcasing the vulnerabilities associated with MD5 hashing when used for password storage.
+The **Hash Cracker** is a Python script designed to reverse-engineer MD5 hashes by comparing them against a list of potential plaintext passwords sourced from a local file. This utility serves as a demonstration of hash cracking techniques, showcasing the vulnerabilities associated with MD5 hashing when used for password storage.
 
 ---
 
@@ -44,14 +44,14 @@ pip install -r requirements.txt
 ---
 
 ## Usage
-To utilize the MD5 Hash Cracker, execute the following command in your terminal:
+To utilize the Hash Cracker, execute the following command in your terminal:
 
 ```bash
 python main.py
 ```
 
 ### Input Format
-- The program will prompt you to **Enter the Hash to Crack**. Provide the MD5 hash you wish to reverse.
+- The program will prompt you to **Enter the Hash to Crack**. Provide the hash you wish to reverse.
 
 ### Output
 - Upon execution, the program will output either:
@@ -61,7 +61,7 @@ python main.py
 ---
 
 ## Code Explanation
-The following Python code illustrates the logic behind the MD5 Hash Cracker:
+The following Python code illustrates the logic behind the Hash Cracker:
 
 ```python
 import hashlib  # Importing the hashlib module to access hashing functions
