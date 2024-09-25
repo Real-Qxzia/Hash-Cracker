@@ -87,10 +87,10 @@ with open('passwords.txt', 'r') as f:
 ---
 
 ## Detailed Breakdown
-- **Module Import**: The `hashlib` module is imported to facilitate hashing functions, specifically for MD5 hashing.
+- **Module Import**: The `hashlib` module is imported to facilitate hashing functions, specifically for hashing.
 - **Input Handling**: The user is prompted to input the hash they wish to crack, which is stripped of surrounding whitespace.
 - **File Handling**: The password file is opened, and each line is processed sequentially:
-  - Each password is stripped of whitespace and hashed using MD5.
+  - Each password is stripped of whitespace and hashed using the preferred method.
   - The hashed password is compared to the user-provided hash.
 - **Match Handling**: If a match is found, the corresponding password is printed, and the loop terminates. If no matches are found after checking all passwords, a failure message is displayed.
 
